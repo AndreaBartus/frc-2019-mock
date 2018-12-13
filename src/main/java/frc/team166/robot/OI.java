@@ -7,8 +7,11 @@
 
 package frc.team166.robot;
 
+import edu.wpi.first.wpilibj.XboxController;
+
 public class OI {
     // Creates joysticks
+    public XboxController driverXbox = new XboxController(1);
 
     public OI() {
 
